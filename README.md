@@ -38,7 +38,8 @@ Plug the adapter into a USB 3.0 port on the back of the PC directly on the mothe
 ## Secure Boot
 
 If Secure Boot is on, the script checks whether the DKMS signing key is enrolled. If not, it asks you to pick a one-time password. On the next reboot a blue MOK management screen appears. Choose Enroll MOK, Continue, Yes, enter the password, then Reboot.
-NOTE: Secure boot is OFF on my machine - if yours is ON, THIS IS NOT TESTED SO PROCEED WITH CAUTION 
+> [!WARNING]
+> Secure boot is OFF on my machine - if yours is ON, THIS IS NOT TESTED SO PROCEED WITH CAUTION 
 
 ## When to uninstall
 
