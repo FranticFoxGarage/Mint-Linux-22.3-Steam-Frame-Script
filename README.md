@@ -33,7 +33,7 @@ Run it as your normal user, not with sudo. It asks for your password when it nee
 
 Reboot after install and uninstall.
 
-Plug the adapter into a USB 3 port on the back of the PC directly on the motherboard. Front panel ports and hubs may not work.
+Plug the adapter into a USB 3.0 port on the back of the PC directly on the motherboard. Front panel ports and hubs may not work.
 
 ## Secure Boot
 
