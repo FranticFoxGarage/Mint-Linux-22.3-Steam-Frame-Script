@@ -1,5 +1,6 @@
 # frame-linux-fix
 
+DISCLAIMER: VIBE CODED!!! Tested on my own machine but keep that in mind going forward!
 Workarounds for the Steam Frame on desktop Linux. Tested on Linux Mint 22.3 (kernel 7.0, NVIDIA). Should work on other apt-based distros like Ubuntu, Debian and Pop!_OS.
 
 ## What it fixes
@@ -32,11 +33,12 @@ Run it as your normal user, not with sudo. It asks for your password when it nee
 
 Reboot after install and uninstall.
 
-Plug the adapter into a USB 3 port on the back of the PC, directly on the motherboard. Front panel ports and hubs may not work.
+Plug the adapter into a USB 3 port on the back of the PC directly on the motherboard. Front panel ports and hubs may not work.
 
 ## Secure Boot
 
 If Secure Boot is on, the script checks whether the DKMS signing key is enrolled. If not, it asks you to pick a one-time password. On the next reboot a blue MOK management screen appears. Choose Enroll MOK, Continue, Yes, enter the password, then Reboot.
+NOTE: Secure boot is OFF on my machine - if yours is ON, THIS IS NOT TESTED SO PROCEED WITH CAUTION 
 
 ## When to uninstall
 
